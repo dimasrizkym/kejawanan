@@ -1,0 +1,76 @@
+// import font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// variable
+$color-primary-80: #007ADC; // button default
+$color-text-title: #232631; // title
+$color-text-desc-1: #374151;  // desc title, paraghrap
+$color-text-desc-2: #656565; // desc card
+$color-stroke: #6D7280; // border color
+$bg-color-whhite: #FFFFFF; // bg section white
+$bg-color-blue: #F6FBFF; //bg color
+$font-family-poppins: 'Poppins', sans-serif;
+
+// set properties
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-poppins;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+// text
+.heading-1{
+  font-family: $font-family-poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: $color-text-title;
+}
+.heading-2{
+  font-family: $font-family-poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: $color-text-title;
+}
+.heading-3{
+  font-family: $font-family-poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: $color-text-title;
+}
+.heading-4{
+  font-family: $font-family-poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: $color-text-title;
+}
+.text-desc-1{
+  font-family: $font-family-poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: $color-text-desc-1;
+}
+.text-desc-2{
+  font-family: $font-family-poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: $color-text-desc-1;
+}
+
+// container
+.container{
+  max-width: 1200px;
+}
