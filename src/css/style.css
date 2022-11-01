@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 .heading-1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -73,6 +77,28 @@
 
 .navbar li {
   margin-right: 30px;
+}
+
+.home {
+  padding: 30px 0px;
+}
+
+.txt-home {
+  padding-top: 35px;
+}
+
+.img-home {
+  width: 80%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .txt-home {
+    padding: unset;
+  }
+
+  #imgTagLine {
+    visibility: hidden;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
