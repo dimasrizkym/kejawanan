@@ -22,6 +22,9 @@ $font-family-poppins: 'Poppins', sans-serif;
 img {
   max-width: 100%;
 }
+.section-padding {
+  padding: 96px 0px;
+}
 
 // text
 .heading-1{
@@ -90,10 +93,6 @@ img {
 // end navbar component
 
 // home component
-.home {
-  padding: 30px 0px;
-}
-
 .txt-home{
   padding-top: 35px;
 }
@@ -101,13 +100,31 @@ img {
 .img-home{
   width: 80%;
 }
+// end home component
+
+// keunggulan_pantai component
+#keunggulan_pantai .heading-2{
+  margin-bottom: 48px;
+}
+#keunggulan_pantai .card-title{
+  margin: 16px 0px;
+  font-weight: 600;
+}
+#keunggulan_pantai .d-grid{
+  margin-top: 48px;
+}
+// end keunggulan_pantai component
 
 @media (min-width: 320px) and (max-width: 480px) {
   .txt-home {
     padding: unset;
   }
-  #imgTagLine{
-    visibility: hidden;
+
+  #imgTagLine {
+    display: none;
+  }
+
+  .section-padding {
+    padding: 43px 0px;
   }
 }
-// end home component
