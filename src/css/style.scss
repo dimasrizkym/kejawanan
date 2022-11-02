@@ -25,6 +25,9 @@ img {
 .section-padding {
   padding: 96px 0px;
 }
+.bg-blue{
+  background-color: $bg-color-blue;
+}
 
 // text
 .heading-1{
@@ -94,26 +97,45 @@ img {
 
 // home component
 .txt-home{
-  padding-top: 35px;
+  padding-top: 15px;
 }
-
 .img-home{
   width: 80%;
+}
+#home button{
+  height: 47px;
 }
 // end home component
 
 // keunggulan_pantai component
-#keunggulan_pantai .heading-2{
+#keunggulan-pantai .heading-2{
   margin-bottom: 48px;
 }
-#keunggulan_pantai .card-title{
+#keunggulan-pantai .card-title{
   margin: 16px 0px;
   font-weight: 600;
 }
-#keunggulan_pantai .d-grid{
+#keunggulan-pantai .d-grid{
   margin-top: 48px;
 }
+#keunggulan-pantai img{
+  width: 58px;
+  height: 58px;
+}
 // end keunggulan_pantai component
+
+// tentang pantai component
+.img-tentang-pantai{
+  width: 90%;
+}
+#tentang-pantai .text-desc-2{
+  margin-top: 24px;
+  text-align: start;
+}
+#tentang-pantai button{
+  height: 47px;
+}
+// end tentang pantai component
 
 @media (min-width: 320px) and (max-width: 480px) {
   .txt-home {
@@ -127,4 +149,9 @@ img {
   .section-padding {
     padding: 43px 0px;
   }
+
+    .img-tentang-pantai {
+      width: 100%;
+      margin-bottom: 24px;
+    }
 }
