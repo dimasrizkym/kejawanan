@@ -19,6 +19,9 @@ $font-family-poppins: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 img {
   max-width: 100%;
 }
@@ -76,7 +79,15 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 27px;
-  color: $color-text-desc-1;
+  color: $color-text-desc-2;
+}
+.text-desc-3{
+  font-family: $font-family-poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $color-text-desc-2;
 }
 .txt-blue{
   color: $color-primary-80;
@@ -153,10 +164,24 @@ img {
 #fasilitas-pantai .text-desc-1{
   font-weight: 600;
 }
-.txt-blue{
-  color: $color-primary-80;
-}
 // end fasilitas pantai component
+
+// kuliner
+
+#kuliner{
+  .heading-2{
+    margin-bottom: 48px;
+  }
+  .swiper {
+    .swiper-slide {
+      max-width: 271px!important;
+      img{
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+// end kuliner
 
 @media (min-width: 320px) and (max-width: 480px) {
   .txt-home {
