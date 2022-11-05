@@ -1,4 +1,4 @@
 var swiper = new Swiper(".swiperKuliner", {
   slidesPerView: 'auto',
-  spaceBetween: 24,
+  spaceBetween: 32,
 });
