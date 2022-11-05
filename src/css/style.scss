@@ -167,7 +167,6 @@ img {
 // end fasilitas pantai component
 
 // kuliner
-
 #kuliner{
   .heading-2{
     margin-bottom: 48px;
@@ -179,6 +178,46 @@ img {
         max-width: 260px!important;
         margin-bottom: 16px;
       }
+    }
+  }
+}
+// end kuliner
+
+// kuliner
+#ulasan{
+  p.text-desc-2{
+    max-width: 340px;
+  }
+  .swiper-slide{
+    cursor: grab;
+
+    .ulasan-text{
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: justify;
+      color: $color-text-title;
+      margin-bottom: 32px;
+    }
+    img{
+      width: 40px;
+      height: 40px;
+    }
+    h6.text-desc-2{
+      color: $color-text-title;
+      font-weight: 500;
+      margin: 0;
+    }
+  }
+  .swiper-pagination{
+    text-align: right!important;
+    .swiper-pagination-bullet{
+      background: #93C5FD;
+    }
+    swiper-pagination-bullet-active{
+      background: #3B82F6;
     }
   }
 }
