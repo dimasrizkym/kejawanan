@@ -31,6 +31,9 @@ img {
 .bg-blue{
   background-color: $bg-color-blue;
 }
+.bold-600{
+  font-weight: 600 !important;
+}
 
 // text
 .heading-1{
@@ -223,6 +226,15 @@ img {
 }
 // end kuliner
 
+// informasi pantai
+#informasi-pantai .heading-2{
+  margin-bottom: 64px;
+}
+#informasi-pantai .mt{
+  margin-top: 0px;
+}
+// end informasi pantai
+
 @media (min-width: 320px) and (max-width: 480px) {
   .txt-home {
     padding: unset;
@@ -247,5 +259,9 @@ img {
   
   #fasilitas-pantai .mt-32 {
     margin-top: unset !important;
+  }
+
+  #informasi-pantai .mt {
+    margin-top: 1rem;
   }
 }
