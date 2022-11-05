@@ -174,8 +174,9 @@ img {
   }
   .swiper {
     .swiper-slide {
-      max-width: 271px!important;
+      max-width: 260px!important;
       img{
+        max-width: 260px!important;
         margin-bottom: 16px;
       }
     }

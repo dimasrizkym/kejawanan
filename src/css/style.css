@@ -169,10 +169,11 @@ img {
 }
 
 #kuliner .swiper .swiper-slide {
-  max-width: 271px !important;
+  max-width: 260px !important;
 }
 
 #kuliner .swiper .swiper-slide img {
+  max-width: 260px !important;
   margin-bottom: 16px;
 }
 
