@@ -60,7 +60,7 @@ img {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 28px;
   color: #232631;
 }
 
@@ -254,6 +254,83 @@ img {
   }
   #informasi-pantai .mt {
     margin-top: 1rem;
+  }
+}
+
+#detailBlog .head-articel {
+  max-width: 780px;
+  margin-bottom: 32px;
+}
+
+#detailBlog .head-articel span {
+  padding: 2px 10px;
+  border-radius: 16px;
+  background: #D9EBFA;
+  color: #007ADC;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+#detailBlog .head-articel p {
+  margin-bottom: 0;
+}
+
+#detailBlog img {
+  max-width: 978px;
+  width: 100%;
+  height: auto;
+  -o-object-fit: center;
+     object-fit: center;
+  margin-bottom: 32px;
+}
+
+#detailBlog .body-articel {
+  max-width: 780px;
+}
+
+#detailBlog .body-articel p {
+  margin-bottom: 24px;
+  text-align: justify;
+}
+
+#detailBlog .body-articel h4 {
+  margin-bottom: 24px;
+}
+
+#blogRecomendation {
+  max-width: 780px;
+}
+
+#blogRecomendation .blog-rekomendation {
+  margin-top: 32px;
+  gap: 32px;
+}
+
+#blogRecomendation .blog-rekomendation .card-rekomendation span {
+  padding: 2px 10px;
+  border-radius: 16px;
+  background: #D9EBFA;
+  color: #007ADC;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+@media (max-width: 620px) {
+  .card-rekomendation.d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card-rekomendation.d-flex img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: center;
+       object-fit: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

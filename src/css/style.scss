@@ -3,6 +3,7 @@
 
 // variable
 $color-primary-80: #007ADC; // button default
+$color-primary-50: #D9EBFA;
 $color-text-title: #232631; // title
 $color-text-desc-1: #374151;  // desc title, paraghrap
 $color-text-desc-2: #656565; // desc card
@@ -65,7 +66,7 @@ img {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 28px;
   color: $color-text-title;
 }
 .text-desc-1{
@@ -112,6 +113,8 @@ img {
 }
 // end navbar component
 
+// index.html
+// =====================================
 // home component
 .txt-home{
   padding-top: 15px;
@@ -263,5 +266,75 @@ img {
 
   #informasi-pantai .mt {
     margin-top: 1rem;
+  }
+}
+
+// detail-blog.html
+// =====================================
+#detailBlog{
+  .head-articel{
+    max-width: 780px;
+    margin-bottom: 32px;
+    span{
+      padding: 2px 10px;
+      border-radius: 16px;
+      background: $color-primary-50;
+      color: $color-primary-80;
+      -webkit-border-radius: 16px;
+      -moz-border-radius: 16px;
+      -ms-border-radius: 16px;
+      -o-border-radius: 16px;
+    }
+    p{
+      margin-bottom: 0;
+    }
+  }
+  img{
+    max-width: 978px;
+    width: 100%;
+    height: auto;
+    object-fit: center;
+    margin-bottom: 32px;
+  }
+  .body-articel{
+    max-width: 780px;
+    p {
+      margin-bottom: 24px;
+      text-align: justify;
+    }
+    h4{
+      margin-bottom: 24px;
+    }
+  }
+}
+
+#blogRecomendation{
+  max-width: 780px;
+  .blog-rekomendation{
+    margin-top: 32px;
+    gap: 32px;
+    .card-rekomendation{
+      span{
+        padding: 2px 10px;
+        border-radius: 16px;
+        background: $color-primary-50;
+        color: $color-primary-80;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+      }
+    }
+  }
+}
+
+@media(max-width: 620px) {
+  .card-rekomendation.d-flex{
+    img{
+      width: 100%;
+      height: auto; 
+      object-fit: center; 
+    }
+    flex-direction: column;
   }
 }
