@@ -256,6 +256,11 @@ img {
   -o-border-radius: 16px;
 }
 
+#faq .heading-4 span {
+  color: #007ADC;
+  margin-right: 20px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .txt-home {
     padding: unset;
