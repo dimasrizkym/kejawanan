@@ -428,4 +428,37 @@ img {
     height: 150px;
   }
 }
+
+#searchBlog .title {
+  max-width: 800px;
+  margin-bottom: 32px;
+}
+
+#searchBlog .search {
+  max-width: 800px;
+  width: 100%;
+}
+
+#searchBlog .search .filter-search {
+  width: 100%;
+}
+
+#searchBlog .search .filter-tab {
+  overflow-y: auto;
+}
+
+#searchBlog .search .filter-tab .item-filter.active {
+  color: #007ADC;
+  font-weight: 500;
+}
+
+#searchBlog .search .filter-tab .item-filter {
+  cursor: pointer;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+#searchBlog .search .filter-tab .item-filter:hover {
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */

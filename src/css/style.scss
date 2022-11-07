@@ -433,3 +433,35 @@ img {
       height: 150px;
     }
 }
+
+// all-blog.html
+// =====================================
+#searchBlog{
+  .title{
+    max-width: 800px;
+    margin-bottom: 32px;
+  }
+  .search{
+    max-width: 800px;
+    width: 100%;
+
+    .filter-search{
+      width: 100%;
+    }
+    .filter-tab{
+      overflow-y: auto;
+      .item-filter.active{
+        color: $color-primary-80;
+        font-weight: 500;
+      }
+      .item-filter{
+        cursor: pointer;
+        text-transform: capitalize;
+        white-space: nowrap;
+      }
+      .item-filter:hover{
+        font-weight: 500;
+      }
+    }
+  }
+}
