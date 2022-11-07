@@ -55,7 +55,7 @@
           </div>
           <div class="search">
             <div class="filter-search d-flex gap-2 mb-3">
-              <input type="type" placeholder="Search Blog" class="form-control">
+              <input id="searchBlogTitle" onkeyup="searchBlog()" type="text" placeholder="Search Blog" class="form-control">
               <button type="search" class="btn btn-primary">Search</button>
             </div>
             <div class="filter-tab d-flex justify-content-between align-items-center gap-3">
@@ -79,11 +79,137 @@
 
   <!-- START : MAIN -->
   <main>
-    
-
+    <!-- START: LIST BLOG -->
+    <section class="container" >
+      <div class="section-padding" id="listBlog">
+        <div class="parent">
+          <div class="card-blog">
+            <div class="card border-0">
+              <img src="src/images/blog-1.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <div class="text-desc-2 mt-3 bold-600">Admin • 10 Oktober 2022</div>
+                <div class="heading-3 mt-3 mb-3">
+                  <a href="#" target="_blank" class="heading-3">Menjaga dan Merawat Pantai Kejawanan</a>
+                </div>
+                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati
+                  oleh masyarakat
+                  baik itu berasal dari
+                  dalam negeri
+                  maupun luar negeri.
+                </p>
+                <span>Artikel</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="card border-0">
+              <img src="src/images/blog-2.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <div class="text-desc-2 mt-3 bold-600">Admin • 8 Oktober 2022</div>
+                <div class="heading-3 mt-3 mb-3">
+                  <a href="#" target="_blank" class="heading-3">Tempat Wisata Pantai Kejawanan Kembali Dibuka</a>
+                </div>
+                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati
+                  oleh masyarakat
+                  baik itu berasal dari
+                  dalam negeri
+                  maupun luar negeri.
+                </p>
+                <span>Artikel</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="card border-0">
+              <img src="src/images/blog-3.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <div class="text-desc-2 mt-3 bold-600">Admin • 7 Oktober 2022</div>
+                <div class="heading-3 mt-3 mb-3">
+                  <a href="#" target="_blank" class="heading-3">Pesona Matahari Terbenam di Pantai Kejawanan</a>
+                </div>
+                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati
+                  oleh masyarakat
+                  baik itu berasal dari
+                  dalam negeri
+                  maupun luar negeri.
+                </p>
+                <span>Artikel</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="card border-0">
+              <img src="src/images/blog-4.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <div class="text-desc-2 mt-3 bold-600">Admin • 4 Oktober 2022</div>
+                <div class="heading-3 mt-3 mb-3">
+                  <a href="#" target="_blank" class="heading-3">7 ide pose Foto saat Kamu Berada 
+                    Di pantai</a>
+                </div>
+                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal dari dalam negeri maupun luar negeri.</p>
+                <span>Artikel</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="card border-0">
+              <img src="src/images/blog-5.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <div class="text-desc-2 mt-3 bold-600">Admin • 3 Oktober 2022</div>
+                <div class="heading-3 mt-3 mb-3">
+                  <a href="#" target="_blank" class="heading-3">5 Wahana Yang Wajib Dicoba Saat Berada Di Kejawanan</a>
+                </div>
+                <p class="text-desc-2 text-justify">Pantai adalah suatu tempat destinasi wisata yang sangat diminati oleh masyarakat baik itu berasal dari dalam negeri maupun luar negeri.</p>
+                <span>Artikel</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="card border-0">
+              <img src="src/images/blog-6.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <div class="text-desc-2 mt-3 bold-600">Admin • 1 Oktober 2022</div>
+                <div class="heading-3 mt-3 mb-3">
+                  <a href="#" target="_blank" class="heading-3">Mengenal Nasi Jamblang, Makanan Khas Cirebon</a>
+                </div>
+                <p class="text-desc-2 text-justify">Sega jamblang atau sekarang lebih dikenal dengan sebutan nasi jamblang yang merupakan makanan khas cirebon. Asal usul adanya nasi jamblang</p>
+                <span>Artikel</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="card border-0">
+              <img src="src/images/blog-7.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <div class="text-desc-2 mt-3 bold-600">Admin • 28 September 2022</div>
+                <div class="heading-3 mt-3 mb-3">
+                  <a href="#" target="_blank" class="heading-3">Mengenal Wahana Pemancingan Pantai Kejawanan</a>
+                </div>
+                <p class="text-desc-2 text-justify">Tak hanya dikenal dengan Wisata Pantainya, Pantai Kejawanan juga dikenal dengan Pemancingannya yang luas dan menantang</p>
+                <span>Artikel</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog">
+            <div class="card border-0">
+              <img src="src/images/blog-8.png" class="card-img-top" alt="...">
+              <div class="card-body p-0">
+                <div class="text-desc-2 mt-3 bold-600">Admin • 26 September 2022</div>
+                <div class="heading-3 mt-3 mb-3">
+                  <a href="#" target="_blank" class="heading-3">Pantai Kejawanan Masuk Nominasi Pantai Terbaik</a>
+                </div>
+                <p class="text-desc-2 text-justify">Pantai yang terletak di utara Kota Cirebon ini mendapat nominasi sebagai salah satu Pantai Terbaik oleh Kemenparekraf pada bulan</p>
+                <span>Artikel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: LIST BLOG -->
   </main>
   <!-- END : MAIN -->
-
+  
   <!-- START : FOOTER -->
   <footer>
     // footer content
@@ -95,6 +221,23 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="src/js/main.js"></script>
+  <script>
+    function searchBlog() {
+    let input = document.getElementById("searchBlogTitle");
+    let filter = input.value.toUpperCase();
+    let cardBlog = document.getElementsByClassName("card-blog");
+    for (let i = 0; i < cardBlog.length; i++) {
+        a = cardBlog[i].getElementsByTagName("a")[0];
+        let txtValue = a.textContent || a.innerText;
+        
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            cardBlog[i].style.display = "";
+        } else {
+            cardBlog[i].style.display = "none";
+        }
+    }
+}
+  </script>
 </body>
 
 </html>

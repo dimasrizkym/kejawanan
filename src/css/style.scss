@@ -429,9 +429,11 @@ img {
 }
 
 @media(max-width: 620px) {
+  #detailKejawanan{
     iframe{
       height: 150px;
     }
+  }
 }
 
 // all-blog.html
@@ -464,4 +466,179 @@ img {
       }
     }
   }
+}
+#listBlog{
+  .parent {
+    display: grid; 
+    justify-content: space-between;
+    gap: 32px; 
+    grid-template-areas: 
+      "nth1 nth1 nth1 nth2 nth2 nth2"
+      "nth1 nth1 nth1 nth3 nth3 nth3"
+      "nth1 nth1 nth1 nth4 nth4 nth4"
+      "nth1 nth1 nth1 nth5 nth5 nth5"
+      "nth6 nth6 nth7 nth7 nth8 nth8";  
+      a {
+        text-decoration: none;
+      }
+      span {
+        padding: 2px 10px;
+        border-radius: 16px;
+        background: $color-primary-50;
+        color: $color-primary-80;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+      }
+      .card-blog:nth-child(1) { 
+        grid-area: nth1; 
+      }
+      .card-blog:nth-child(2) { 
+        grid-area: nth2; 
+      }
+      .card-blog:nth-child(3) { 
+        grid-area: nth3; 
+      }
+      .card-blog:nth-child(4) { 
+        grid-area: nth4; 
+      }
+      .card-blog:nth-child(5) { 
+        grid-area: nth5; 
+      }
+      .card-blog:nth-child(6) { 
+        grid-area: nth6; 
+      }
+      .card-blog:nth-child(7) { 
+        grid-area: nth7; 
+      }
+      .card-blog:nth-child(8) { 
+        grid-area: nth8; 
+      }
+    
+      .card-blog:nth-child(2),
+      .card-blog:nth-child(3),
+      .card-blog:nth-child(4), 
+      .card-blog:nth-child(5){ 
+        .card{
+          display: flex;
+          flex-direction: row-reverse;
+          gap: 16px;
+          img{
+            width: 120px;
+            height: 120px;
+            object-fit: center;
+          }
+          .card-body {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            .mt-3{
+              margin-top: 0!important;
+            }
+            .heading-3{
+              font-family: $font-family-poppins;
+              font-style: normal; 
+              font-weight: 600; 
+              font-size: 20px;  
+              line-height: 28px;  
+              color: $color-text-title; 
+            }
+            p, span {
+              display: none;
+            }
+          }
+        }
+      }
+
+      .card-blog:nth-child(6),
+      .card-blog:nth-child(7),
+      .card-blog:nth-child(8){
+
+          width: 400px;
+          img{
+            width: 100%;
+            max-width: 400px;
+          }
+      }
+  }
+}
+
+
+@media(max-width: 820px) {
+  #listBlog{
+  .parent{
+    display: grid; 
+    justify-content: center;
+    gap: 32px; 
+    grid-template-areas: 
+    "nth1"
+    "nth2"
+    "nth3"
+    "nth4"
+    "nth5"
+    "nth6"
+    "nth7"
+    "nth8"; 
+    .card-blog{
+      max-width: 400px;
+    }
+    .card-blog:nth-child(1) {
+      grid-area: nth1; 
+    }
+    .card-blog:nth-child(2) {
+      grid-area: nth2; 
+    }
+    .card-blog:nth-child(3) {
+      grid-area: nth3; 
+    }
+    .card-blog:nth-child(4) {
+      grid-area: nth4; 
+    }
+    .card-blog:nth-child(5) {
+      grid-area: nth5; 
+    }
+    .card-blog:nth-child(6) {
+      grid-area: nth6; 
+    }
+    .card-blog:nth-child(7) {
+      grid-area: nth7; 
+    }
+    .card-blog:nth-child(8) {
+      grid-area: nth8; 
+    }
+    .card-blog:nth-child(2),
+    .card-blog:nth-child(3),
+    .card-blog:nth-child(4), 
+    .card-blog:nth-child(5){ 
+      .card{
+      display: block;
+      flex-direction: row-reverse;
+      gap: 16px;
+      img{
+        width: 100%;
+        height: auto;
+        object-fit: center;
+      }
+      .card-body {
+          display: block;
+          .mt-3{
+            margin-top: 16px!important;
+          }
+          .heading-3{
+            font-family: $font-family-poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: $color-text-title;
+          }
+          p, span {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
 }
