@@ -310,11 +310,7 @@ footer {
   span{
     color: #3B82F6;
   }
-  .copyright{
-    text-align: start;
-  }
   .social-media{
-    float: right;
     a{
       margin-left: 20px;
     }
@@ -357,17 +353,15 @@ footer {
   }
   
   footer .copyright{
-    text-align: center;
     margin-bottom: 10px;
-  }
-
-  footer .social-media{
-    text-align: center;
-    float: none;
   }
 
   #col-email{
     margin-bottom: 10px;
+  }
+
+  footer .flex-col{
+    flex-direction: column;
   }
 }
 
