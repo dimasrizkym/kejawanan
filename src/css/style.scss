@@ -448,6 +448,10 @@ footer {
     margin-top: 32px;
     gap: 32px;
     .card-rekomendation{
+      img{
+        width: 200px;
+        height: auto;
+      }
       a{
         text-decoration: none!important;
         display: block;
@@ -472,7 +476,7 @@ footer {
 @media(max-width: 620px) {
   .card-rekomendation.d-flex{
     img{
-      width: 100%;
+      width: 100%!important;
       height: auto; 
       object-fit: cover; 
     }

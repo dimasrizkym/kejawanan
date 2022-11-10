@@ -444,6 +444,11 @@ footer .social-media a {
   gap: 32px;
 }
 
+#blogRecomendation .blog-rekomendation .card-rekomendation img {
+  width: 200px;
+  height: auto;
+}
+
 #blogRecomendation .blog-rekomendation .card-rekomendation a {
   text-decoration: none !important;
   display: block;
@@ -472,7 +477,7 @@ footer .social-media a {
             flex-direction: column;
   }
   .card-rekomendation.d-flex img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover;
