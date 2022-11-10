@@ -284,6 +284,10 @@ img {
 
 #blog-terbaru .text-desc-2 {
   text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 #blog-terbaru span {
@@ -566,6 +570,7 @@ footer .social-media a {
 }
 
 #listBlog .parent p {
+  text-align: justify;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
