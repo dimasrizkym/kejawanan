@@ -406,7 +406,7 @@ footer {
     max-width: 978px;
     width: 100%;
     height: auto;
-    object-fit: center;
+    object-fit: cover;
     margin-bottom: 32px;
   }
   .body-articel{
@@ -446,7 +446,7 @@ footer {
     img{
       width: 100%;
       height: auto; 
-      object-fit: center; 
+      object-fit: cover; 
     }
     flex-direction: column;
   }
@@ -476,7 +476,7 @@ footer {
     max-width: 978px;
     width: 100%;
     height: 500px;
-    object-fit: center;
+    object-fit: cover;
     margin-bottom: 32px;
   }
   .body-articel{
@@ -547,6 +547,12 @@ footer {
       a {
         text-decoration: none;
       }
+      p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+      }
       span {
         padding: 2px 10px;
         border-radius: 16px;
@@ -556,6 +562,12 @@ footer {
         -moz-border-radius: 16px;
         -ms-border-radius: 16px;
         -o-border-radius: 16px;
+      }
+      .card-blog{
+        a:hover{
+          text-decoration: underline;
+          color: $color-text-title;
+        }
       }
       .card-blog:nth-child(1) { 
         grid-area: nth1; 
@@ -577,9 +589,12 @@ footer {
       }
       .card-blog:nth-child(7) { 
         grid-area: nth7; 
+        justify-self: center; 
       }
       .card-blog:nth-child(8) { 
         grid-area: nth8; 
+        justify-self: end; 
+
       }
     
       .card-blog:nth-child(2),
@@ -593,7 +608,7 @@ footer {
           img{
             width: 120px;
             height: 120px;
-            object-fit: center;
+            object-fit: cover;
           }
           .card-body {
             display: flex;
@@ -620,12 +635,8 @@ footer {
       .card-blog:nth-child(6),
       .card-blog:nth-child(7),
       .card-blog:nth-child(8){
-
-          width: 400px;
-          img{
+            max-width: 360px;
             width: 100%;
-            max-width: 400px;
-          }
       }
   }
 }
@@ -648,6 +659,7 @@ footer {
     "nth8"; 
     .card-blog{
       max-width: 400px;
+      margin-bottom: 32px;
     }
     .card-blog:nth-child(1) {
       grid-area: nth1; 
@@ -669,9 +681,11 @@ footer {
     }
     .card-blog:nth-child(7) {
       grid-area: nth7; 
+      justify-self: start;
     }
     .card-blog:nth-child(8) {
       grid-area: nth8; 
+      justify-self: start;
     }
     .card-blog:nth-child(2),
     .card-blog:nth-child(3),
@@ -684,7 +698,7 @@ footer {
       img{
         width: 100%;
         height: auto;
-        object-fit: center;
+        object-fit: cover;
       }
       .card-body {
           display: block;
