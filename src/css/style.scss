@@ -125,10 +125,11 @@ img {
 .img-home{
   width: 80%;
 }
-#home button{
+#home a{
+  padding: 10px;
   height: 47px;
 }
-#home button:nth-child(2){
+#home a:nth-child(2){
   color: #4B5563;
   border-color: #6D7280;
 }
