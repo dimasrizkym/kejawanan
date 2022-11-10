@@ -23,6 +23,10 @@ $font-family-poppins: 'Poppins', sans-serif;
 a{
   text-decoration: none;
 }
+a:hover{
+  text-decoration: underline!important;
+  color: $color-text-title!important;
+}
 img {
   max-width: 100%;
 }
@@ -111,6 +115,9 @@ img {
   font-weight: 500;
   font-size: 12pt;
 }
+.navbar a:hover {
+  text-decoration: none!important;
+}
 .navbar li{
   margin-right: 30px;
 }
@@ -125,11 +132,11 @@ img {
 .img-home{
   width: 80%;
 }
-#home a{
+#home button{
   padding: 10px;
   height: 47px;
 }
-#home a:nth-child(2){
+#home button:nth-child(2){
   color: #4B5563;
   border-color: #6D7280;
 }
@@ -144,7 +151,7 @@ img {
   font-weight: 600;
 }
 #keunggulan-pantai .d-grid{
-  margin-top: 48px;
+  margin-top: 32px;
 }
 #keunggulan-pantai img{
   width: 58px;
@@ -193,12 +200,17 @@ img {
   .heading-2{
     margin-bottom: 48px;
   }
+  
   .swiper {
     .swiper-slide {
       max-width: 260px!important;
       img{
         max-width: 260px!important;
         margin-bottom: 16px;
+      }
+      a:hover{
+        text-decoration: none!important;
+        cursor: default;
       }
     }
   }
@@ -305,6 +317,7 @@ footer {
   }
   a{
     text-decoration: none;
+    white-space: nowrap;
   }
   p{
     margin-bottom: unset;
@@ -316,6 +329,10 @@ footer {
     background-color: $color-primary-80;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+
+    p{
+      white-space: nowrap;
+    }
   }
   .section-padding{
     padding-bottom: unset;
@@ -635,7 +652,7 @@ footer {
       .card-blog:nth-child(6),
       .card-blog:nth-child(7),
       .card-blog:nth-child(8){
-            max-width: 360px;
+            max-width: 420px;
             width: 100%;
       }
   }

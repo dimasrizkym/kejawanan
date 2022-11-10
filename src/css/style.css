@@ -12,6 +12,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline !important;
+  color: #232631 !important;
+}
+
 img {
   max-width: 100%;
 }
@@ -109,6 +114,10 @@ img {
   font-size: 12pt;
 }
 
+.navbar a:hover {
+  text-decoration: none !important;
+}
+
 .navbar li {
   margin-right: 30px;
 }
@@ -121,12 +130,12 @@ img {
   width: 80%;
 }
 
-#home a {
+#home button {
   padding: 10px;
   height: 47px;
 }
 
-#home a:nth-child(2) {
+#home button:nth-child(2) {
   color: #4B5563;
   border-color: #6D7280;
 }
@@ -141,7 +150,7 @@ img {
 }
 
 #keunggulan-pantai .d-grid {
-  margin-top: 48px;
+  margin-top: 32px;
 }
 
 #keunggulan-pantai img {
@@ -199,6 +208,11 @@ img {
 #kuliner .swiper .swiper-slide img {
   max-width: 260px !important;
   margin-bottom: 16px;
+}
+
+#kuliner .swiper .swiper-slide a:hover {
+  text-decoration: none !important;
+  cursor: default;
 }
 
 #ulasan p.text-desc-2 {
@@ -299,6 +313,7 @@ footer li {
 
 footer a {
   text-decoration: none;
+  white-space: nowrap;
 }
 
 footer p {
@@ -313,6 +328,10 @@ footer .contact {
   background-color: #007ADC;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+footer .contact p {
+  white-space: nowrap;
 }
 
 footer .section-padding {
@@ -702,7 +721,7 @@ footer .social-media a {
 #listBlog .parent .card-blog:nth-child(6),
 #listBlog .parent .card-blog:nth-child(7),
 #listBlog .parent .card-blog:nth-child(8) {
-  max-width: 360px;
+  max-width: 420px;
   width: 100%;
 }
 
