@@ -281,23 +281,6 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="src/js/main.js"></script>
-  <script>
-    function searchBlog() {
-      let input = document.getElementById("searchBlogTitle");
-      let filter = input.value.toUpperCase();
-      let cardBlog = document.getElementsByClassName("card-blog");
-      for (let i = 0; i < cardBlog.length; i++) {
-        a = cardBlog[i].getElementsByTagName("a")[0];
-        let txtValue = a.textContent || a.innerText;
-
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          cardBlog[i].style.display = "";
-        } else {
-          cardBlog[i].style.display = "none";
-        }
-      }
-    }
-  </script>
 </body>
 
 </html>
