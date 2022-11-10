@@ -124,6 +124,11 @@ img {
   height: 47px;
 }
 
+#home button:nth-child(2) {
+  color: #4B5563;
+  border-color: #6D7280;
+}
+
 #keunggulan-pantai .heading-2 {
   margin-bottom: 48px;
 }
@@ -140,6 +145,16 @@ img {
 #keunggulan-pantai img {
   width: 58px;
   height: 58px;
+}
+
+#keunggulan-pantai button {
+  color: #007ADC;
+  font-weight: 600;
+}
+
+#keunggulan-pantai button:hover {
+  color: #fff;
+  background-color: #007ADC !important;
 }
 
 .img-tentang-pantai {
@@ -324,6 +339,10 @@ footer .social-media a {
 
   #blog-terbaru .card {
     margin-bottom: 36px;
+  }
+
+  #blog-terbaru button {
+    height: 50px;
   }
 
   footer .copyright {

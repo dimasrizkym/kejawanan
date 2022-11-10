@@ -128,6 +128,10 @@ img {
 #home button{
   height: 47px;
 }
+#home button:nth-child(2){
+  color: #4B5563;
+  border-color: #6D7280;
+}
 // end home component
 
 // keunggulan_pantai component
@@ -144,6 +148,14 @@ img {
 #keunggulan-pantai img{
   width: 58px;
   height: 58px;
+}
+#keunggulan-pantai button{
+  color: $color-primary-80;
+  font-weight: 600;
+}
+#keunggulan-pantai button:hover{
+  color: #fff;
+  background-color: $color-primary-80 !important;
 }
 // end keunggulan_pantai component
 
@@ -350,6 +362,10 @@ footer {
 
   #blog-terbaru .card {
     margin-bottom: 36px;
+  }
+
+  #blog-terbaru button{
+   height: 50px;
   }
   
   footer .copyright{
