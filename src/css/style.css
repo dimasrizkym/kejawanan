@@ -444,6 +444,14 @@ footer .social-media a {
   gap: 32px;
 }
 
+#blogRecomendation .blog-rekomendation .card-rekomendation a {
+  text-decoration: none !important;
+}
+
+#blogRecomendation .blog-rekomendation .card-rekomendation a:hover {
+  text-decoration: underline !important;
+}
+
 #blogRecomendation .blog-rekomendation .card-rekomendation span {
   padding: 2px 10px;
   border-radius: 16px;
