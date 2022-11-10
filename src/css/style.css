@@ -446,6 +446,7 @@ footer .social-media a {
 
 #blogRecomendation .blog-rekomendation .card-rekomendation a {
   text-decoration: none !important;
+  display: block;
 }
 
 #blogRecomendation .blog-rekomendation .card-rekomendation a:hover {
