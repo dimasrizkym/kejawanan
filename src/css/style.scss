@@ -330,7 +330,7 @@ footer {
 }
 // end footer
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 768px) {
   .txt-home {
     padding: unset;
   }
@@ -365,7 +365,7 @@ footer {
   }
 
   #blog-terbaru button{
-   height: 50px;
+   height: 70px;
   }
   
   footer .copyright{
